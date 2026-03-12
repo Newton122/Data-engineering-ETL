@@ -1,0 +1,16 @@
+# Byte-compiled / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+etl_log.txt
+log_file.txt
+
+# Environment variables
+.env
+
+# Databases (add if regenerating)
+*.db
+
