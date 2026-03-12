@@ -1,7 +1,7 @@
 # Countries by GDP ETL Data Engineering Project
 
 ## Overview
-My first data engineering project: Full ETL pipeline to scrape, transform, and load country GDP data from Wikipedia.
+Full ETL pipeline to scrape, transform, and load country GDP data from Wikipedia.
 
 ### Technologies
 - Python
