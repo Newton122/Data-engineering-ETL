@@ -13,11 +13,6 @@ table_name = 'Countries_by_GDP'
 csv_path = './Countries_by_GDP.csv'
 
 
-# Code for ETL operations on Country-GDP data
-
-# Importing the required libraries
-
-
 def extract(url, table_attribs):
     page = requests.get(url).text
     data = BeautifulSoup(page,'html.parser')
