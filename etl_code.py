@@ -53,11 +53,6 @@ def log_progress(message):
     with open("etl_log.txt","a") as log_file:
         log_file.write(f"{timestamp} : {message}\n")
 
-''' Here, you define the required entities and call the relevant 
-functions in the correct order to complete the project. Note that this
-portion is not inside any function.'''
-
-
 
 log_progress("ETL Job Started")
 
